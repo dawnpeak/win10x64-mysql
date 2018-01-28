@@ -3,7 +3,7 @@
 win10系统64位安装配置mysql解压版
 
 # 1、在安装mysql的路径下面新建一个my.ini文件；
-# 2、修改my.ini文件的内容如下：# 
+# 2、修改my.ini文件的内容如下：
 [mysql]
 
 default-character-set=utf8
@@ -20,7 +20,7 @@ max_connections=200
 
 character-set-server=utf8
 
-default-storage-engine=INNODB# 
+default-storage-engine=INNODB
 
 # 3、添加系统环境变量：
   在系统环境变量中新建MYSQL_HOME,值为mysql解压目录，例如：D:\mysql\mysql
