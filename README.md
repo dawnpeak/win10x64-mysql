@@ -4,21 +4,21 @@ win10系统64位安装配置mysql解压版
 1、在安装mysql的路径下面新建一个my.ini文件；
 2、修改my.ini文件的内容如下：
 [mysql]
-# 设置mysql客户端默认字符集
+
 default-character-set=utf8
   
 [mysqld]
-#设置3306端口
+
 port = 3306
-# 设置mysql的安装目录
+
 basedir=D:\mysql\mysql
-# 设置mysql数据库的数据的存放目录，（新版mysql目录下没有data文件夹，但这里设置还是写上data存放目录）
+
 datadir=D:\mysql\mysql\data  
-# 允许最大连接数
+
 max_connections=200
-# 服务端使用的字符集默认为8比特编码的latin1字符集
+
 character-set-server=utf8
-# 创建新表时将使用的默认存储引擎
+
 default-storage-engine=INNODB
 
 3、添加系统环境变量：
